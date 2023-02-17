@@ -1,1 +1,0 @@
-![CI](https://github.com/netology-code/ahj-code/blob/master/env/src/img/netology.svg)
