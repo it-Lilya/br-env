@@ -1,25 +1,23 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
+/** *** */ (() => { // webpackBootstrap
+/** *** */
 
-;// CONCATENATED MODULE: ./src/js/app.js
-// TODO: write code here
+  const __webpack_exports__ = {};
 
-// comment this to pass build
-// eslint-disable-next-line no-unused-vars
-const unusedVariable = 'variable';
+  // CONCATENATED MODULE: ./src/js/app.js
+  // TODO: write code here
 
-// for demonstration purpose only
-function demo(value) {
-  return `Demo: ${value}`;
-}
+  // comment this to pass build
+  // eslint-disable-next-line no-unused-vars
+  const unusedVariable = 'variable';
 
-// eslint-disable-next-line no-console
-console.log('app.js included');
-;// CONCATENATED MODULE: ./src/index.js
+  // for demonstration purpose only
+  function demo(value) {
+    return `Demo: ${value}`;
+  }
 
-
+  // eslint-disable-next-line no-console
+  console.log('app.js included');
+  // CONCATENATED MODULE: ./src/index.js
 
 // TODO: write your code in app.js
-/******/ })()
-;
+/** *** */ })();
