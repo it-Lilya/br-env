@@ -1,8 +1,10 @@
-const webpack = require('webpack');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common');
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { HotModuleReplacementPlugin } from 'webpack';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { merge } from 'webpack-merge';
+import common from './webpack.common';
 
-module.exports = merge(common, {
+export default merge(common, {
   // Set the mode to development or production
   mode: 'development',
   // Control how source maps are generated
@@ -12,11 +14,11 @@ module.exports = merge(common, {
   devServer: {
     historyApiFallback: true,
     open: true,
-    compress: true
+    compress: true,
   },
 
   plugins: [
     // Only update what has changed on hot reload
-    new webpack.HotModuleReplacementPlugin(),
+    new HotModuleReplacementPlugin(),
   ],
 });
